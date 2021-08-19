@@ -2,8 +2,9 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/gira
     username: postgres
-    password: 1234
+    password: admin
   jpa:
     show-sql: true
     generate-ddl: true
-    hibernate:     ddl-auto: create-drop
+    hibernate:
+      ddl-auto: update
