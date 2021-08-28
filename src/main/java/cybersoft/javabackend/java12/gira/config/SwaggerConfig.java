@@ -14,7 +14,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
-
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
@@ -26,10 +25,10 @@ public class SwaggerConfig {
 	
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
-				.title("Gira Api")
-				.description("This is Gira Api")
-				.contact(new Contact("Trần Minh Tân", "https://www.facebook.com/tranminh.tan.161214", "tantm96@gmail.com"))
-				.license("No License")
+				.title("Cybersoft Gira Application")
+				.description("This project is used for education purpose only.")
+				.contact(new Contact("Phan Thanh Tuấn", "tuanphan.dev", "contact@tuanphan.dev"))
+				.license("MIT2")
 				.build();
 	}
 }
