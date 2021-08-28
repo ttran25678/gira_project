@@ -1,7 +1,6 @@
 package cybersoft.javabackend.java12.gira.role.util;
 
 public enum HttpMethods {
-
 	GET,
 	POST,
 	PUT,
@@ -10,5 +9,4 @@ public enum HttpMethods {
 	OPTION,
 	HEAD,
 	LEAD
-	
 }
